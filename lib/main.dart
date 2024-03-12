@@ -1,5 +1,6 @@
-// main.dart
+
 import 'package:flutter/material.dart';
+// main.dart
 import '/pages/log_page.dart';
 
 void main() {
@@ -18,3 +19,5 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+

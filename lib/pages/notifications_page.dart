@@ -10,7 +10,7 @@ class NotificationsPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          'Notifications',
+          'Уведомления',
           style: TextStyle(
             fontSize: 30,
           ),
@@ -25,12 +25,12 @@ class NotificationsPage extends StatelessWidget {
           children: <Widget>[
             _buildNotificationCard(
               context,
-              'Notification 1',
+              'Уведомление',
               'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s',
             ),
             SizedBox(height: 16),
             _buildNotificationCard(
-                context, 'Notification 2', 'This is a notification'),
+                context, 'Уведомление', 'This is a notification'),
           ],
         ),
       ),
@@ -87,7 +87,7 @@ class NotificationsPage extends StatelessWidget {
               onPressed: () {
                 Navigator.of(context).pop();
               },
-              child: Text('Close'),
+              child: Text('Закрыть'),
             ),
           ],
         );

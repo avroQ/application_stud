@@ -25,7 +25,7 @@ class _BazaPageState extends State<BazaPage> {
   }
 
   final List _pages = [
-    GroupPage(),
+    GroupsPage(),
     NotificationsPage(),
     SettingsPage(),
     ProfilePage(),
@@ -42,22 +42,22 @@ class _BazaPageState extends State<BazaPage> {
         items: [
           BottomNavigationBarItem(
             icon: Icon(Icons.group_add),
-            label: 'Groups',
+            label: 'Группы',
             backgroundColor: Colors.deepOrange[300],
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.notifications),
-            label: 'Notifications',
+            label: 'Уведомления',
             backgroundColor: Colors.deepOrange[300],
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.settings),
-            label: 'Settings',
+            label: 'Настройки',
             backgroundColor: Colors.deepOrange[300],
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.person),
-            label: 'Profile',
+            label: 'Профиль',
             backgroundColor: Colors.deepOrange[300],
           ),
         ],
