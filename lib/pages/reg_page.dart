@@ -10,7 +10,6 @@ class _RegistrationPageState extends State<RegistrationPage> {
   final _formKey = GlobalKey<FormState>();
   String _email = '';
   String _password = '';
-  // Можете добавить дополнительные поля по желанию
 
   void _submit() {
     if (_formKey.currentState!.validate()) {

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '/pages/baza_page.dart'; // Предполагается, что у вас есть страница, на которую пользователь будет перенаправлен после входа
+import '/pages/baza_page.dart';
 
 class LoginPage extends StatelessWidget {
   final TextEditingController _emailController = TextEditingController();
