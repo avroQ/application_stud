@@ -117,7 +117,7 @@ Widget build(BuildContext context) {
         _showAddGroupDialog();
       },
       child: Icon(Icons.add),
-      backgroundColor: Colors.pink[100],
+      backgroundColor: Colors.deepOrange[200],
     ),
   );
 }
