@@ -25,7 +25,7 @@ class _BazaPageState extends State<BazaPage> {
   }
 
   final List _pages = [
-    GroupPage(),
+    GroupsPage(),
     NotificationsPage(),
     SettingsPage(),
     ProfilePage(),
